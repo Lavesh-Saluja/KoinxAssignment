@@ -52,6 +52,9 @@ Content-Type: application/json
 ### 3. Cron Job Task 
 **Description:** A cron job runs every 10 minutes to fetch the price of Ethereum from Coingecko API and store it in the database.
 
+### 4. Rate Limiting
+**Description:** Applied rate limiting to prevent abuse or DoS attacks on the APIs.
+
 ## Project Setup
 
 1. Clone the repository.
