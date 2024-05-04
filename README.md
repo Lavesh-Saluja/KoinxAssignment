@@ -8,7 +8,7 @@ This project is a Node.js application that provides APIs to fetch cryptocurrency
 
 ## Base URL
 
-Hosted on AWS at [http://koinxassignment.smpco.tech/api/v1](http://koinxassignment.smpco.tech/api/v1)
+Hosted on AWS on my domain [http://koinxassignment.smpco.tech/api/v1](http://koinxassignment.smpco.tech/api/v1)
 
 ## API Documentation
 
