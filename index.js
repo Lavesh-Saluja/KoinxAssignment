@@ -18,6 +18,9 @@ const apiLimiter = rateLimit({
     standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
     legacyHeaders: false, // Disable the `X-RateLimit-*` headers
 });
+app.get("/", (req, res) => {
+    res.send("Kello");
+})
 app.use("/api/v1",apiLimiter)
 app.use("/api/v1",require('./routes/api/v1'));
 
