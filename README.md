@@ -36,6 +36,8 @@ Content-Type: application/json
 
 ### 2. Get User Balance and Ether Price
 
+**Note**: We might get -ve balance for some addresses because according to this assignment we have considered only Normal Transactions
+
 **Endpoint:** `/getBalance`
 **Description:** Fetches the user's current balance and the latest price of Ethereum.
 
